@@ -1,5 +1,6 @@
 import AllNews from "./AllNews/AllNews";
 import NewsBanner from "./AllNews/NewsBanner";
+import SideBanner from "./AllNews/sideBanner";
 import Footer from "./Shared/Footer/Footer";
 import Header from "./Shared/Header/Header";
 
@@ -9,7 +10,7 @@ const index = () => {
       <Header></Header>
       <NewsBanner></NewsBanner>
       <div className=" md:max-w-[1240px] mx-auto">
-        <AllNews></AllNews>
+          <AllNews></AllNews>
       </div>
 
       <Footer></Footer>
