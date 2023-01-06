@@ -26,6 +26,9 @@ const SideBanner = () => {
     </div>
   </div>
 </div>
+<p className='md:w-[300px]'>
+Today, the entire globe is online; hence news cannot be left behind. Internet news portals currently serve an important role in teaching and enlightening people regarding current events throughout the world. In summary, the job of an online news portal is critical in today’s fast-paced world, where nobody has sufficient opportunity to rest in front of the screen to keep up with what's going on across the world.
+</p>
         </div>
     );
 };

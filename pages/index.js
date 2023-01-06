@@ -1,3 +1,4 @@
+import Head from "next/head";
 import AllNews from "./AllNews/AllNews";
 import NewsBanner from "./AllNews/NewsBanner";
 import SideBanner from "./AllNews/sideBanner";
@@ -6,7 +7,12 @@ import Header from "./Shared/Header/Header";
 
 const index = () => {
   return (
-    <div className="">
+    <div>
+
+    <Head>
+      <title>Dummy News</title>
+    </Head>
+
       <Header></Header>
       <NewsBanner></NewsBanner>
       <div className=" md:max-w-[1240px] mx-auto">
