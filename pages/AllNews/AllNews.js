@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
-import Newscard from './newscard';
 import SideBanner from './sideBanner';
 
 const AllNews = () => {
