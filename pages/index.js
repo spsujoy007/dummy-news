@@ -1,7 +1,6 @@
 import Head from "next/head";
 import AllNews from "./AllNews/AllNews";
 import NewsBanner from "./AllNews/NewsBanner";
-import SideBanner from "./AllNews/sideBanner";
 import Footer from "./Shared/Footer/Footer";
 import Header from "./Shared/Header/Header";
 

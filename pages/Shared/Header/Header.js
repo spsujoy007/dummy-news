@@ -5,13 +5,14 @@ const Header = () => {
 
   const menuitem = <>
   <li><a>Home</a></li>
+  <li><a href='#allnews'>News</a></li>
   <li><a>About</a></li>
   <li><a>Blog</a></li>
   <li><a>Contact us</a></li>
   </>
 
     return (
-        <div className="navbar bg-black text-white h-[30px]">
+        <div className="navbar bg-black text-white h-[30px] fixed z-10">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">

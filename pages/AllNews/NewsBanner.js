@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import React from 'react';
 
 const NewsBanner = () => {
     return (
-        <div>
+        <div className='pt-16'>
             <div className="hero " style={{ backgroundImage: `url("https://i.ibb.co/L1gCnLr/collection-newspapers.webp")` }}>
   <div className="hero-overlay bg-opacity-90"></div>
   <div className="hero-content text-center text-neutral-content py-20 left-5">
